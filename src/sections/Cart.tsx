@@ -8,7 +8,6 @@ import {
   VStack,
   useColorMode,
   useColorModeValue,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import frame from "../../public/Frame-13.svg";
@@ -62,7 +61,7 @@ const Cart = () => {
       <Divider />
       <HStack justifyContent="space-between" w="full">
         <Text color={secondaryTextColor}>total</Text>
-        <Heading size="lg">$162.79</Heading>
+        <Heading size="lg">$168.98</Heading>
       </HStack>
     </VStack>
   );
